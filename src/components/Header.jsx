@@ -25,7 +25,7 @@ function Header() {
         <div className='flex gap-2 md:order-2'><Button className='w-12 h-10 hidden sm:inline' color='gray' pill>
             <FaMoon/></Button>
             <Link to='sign-in'>
-            <Button className='' gradientDuoTone='purpleToBlue'>
+            <Button className='' gradientDuoTone='purpleToBlue' outline>
                 Sign In
             </Button>
             </Link>
